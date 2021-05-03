@@ -1,20 +1,17 @@
 <?php
-	class Home extends Controller
-	{
+	class Home extends Controller {
 		public function __construct() {
 		}
 
-		public function index()
-		{
+		public function index() {
 			$data = [
-				'title' => 'Welcome',
+				'title' => 'Camagru',
 			];
 
 			$this->view('home/index', $data);
 		}
 
-		public function about()
-		{
+		public function about() {
 			$data = [
 				'title' => 'About Us'
 			];
