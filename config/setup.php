@@ -1,6 +1,6 @@
 <?php
-  require_once './database.php';
-  require_once '../app/libraries/Database.php';
+  require_once __DIR__ . '/database.php';
+  require_once __DIR__ . '/../app/libraries/Database.php';
 
   try {
     $dbh = new Database($DB_DSN, $DB_USER, $DB_PASSWORD);
